@@ -3,8 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Job Application Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100">
+
+<div class="max-w-7xl mx-auto p-4">
+
+    <h1 class="text-3xl font-bold mb-6">
+        Job Application Tracker Dashboard
+    </h1>
+
+    <div class="grid md:grid-cols-3 gap-4 mb-8">
+
+        <div class="bg-white p-6 rounded-xl shadow">
+            <h2>Total Jobs</h2>
+            <p id="totalCount">0</p>
+        </div>
+
+        <div class="bg-blue-100 p-6 rounded-xl shadow">
+            <h2>Interview</h2>
+            <p id="interviewCount">0</p>
+        </div>
+
+        <div class="bg-red-100 p-6 rounded-xl shadow">
+            <h2>Rejected</h2>
+            <p id="rejectedCount">0</p>
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
