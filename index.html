@@ -33,6 +33,26 @@
     </div>
 
 </div>
+<div class="bg-white p-6 rounded-xl shadow">
+
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-xl font-semibold">Available Jobs</h2>
+        <p id="tabCount" class="font-bold"></p>
+    </div>
+
+    <div class="flex gap-4 mb-6">
+        <button class="tabBtn bg-gray-200 px-4 py-2 rounded" data-tab="all">All</button>
+        <button class="tabBtn bg-gray-200 px-4 py-2 rounded" data-tab="interview">Interview</button>
+        <button class="tabBtn bg-gray-200 px-4 py-2 rounded" data-tab="rejected">Rejected</button>
+    </div>
+
+    <div id="jobContainer"></div>
+
+    <div id="emptyMessage" class="hidden">
+        No jobs available
+    </div>
+
+</div>
 
 </body>
 </html>
